@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(172, 172, 172);
+    font-family: Arial;
+}
+h1{
+    color: whitesmoke;
+}
+#head{
+    background-color: rgb(94, 94, 94);
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+main{
+    color: whitesmoke;
+    width: 100%;
+    height: auto;
+    clear: both;
+    font-size: large;
+}
+fieldset{
+    border: whitesmoke solid;
+    margin-bottom: 40px;
+}
+input{
+    padding: 5px;
+    height: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+button{
+    height: 30px;
+    margin-right: 10px;
+}
+#info{
+    font-size: medium;
+}

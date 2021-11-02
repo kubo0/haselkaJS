@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menedżer haseł - Jakub Jaśkiewicz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="head">
+        <h1>Menedżer haseł w JavaScript</h1>
+    </div>
+
+    <main>
+        <fieldset>
+            <legend>Wpisz login i hasło</legend>
+            
+            <input id="inpDla" type="text" placeholder="Wpisz do czego ma być login i hasło..."><br>
+            <input id="inpLogin" type="text" placeholder="Wpisz login..."><br>
+            <input id="inpHasło" type="text" placeholder="Wpisz hasło..."><br>
+            <button id="inpPrześlijDane" type="button">Prześlij dane</button>
+            <button id="inpClearLocal" type="button">Usuń wszystkie dane</button>
+
+            <div id="info">
+                <h3>Jak edytować?</h3>
+                <p>Żeby edytować wpis w Local Storage trzeba wpisać w pierwsze pole jeszcze raz tą samą platformę, na przykład YouTube (znaki oraz wielkość liter muszą się zgadzać). Login i hasło w Local Storage zostaną zmienione.</p>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Usuwanie danych</legend>
+
+            <input id="inpUsuńText" type="text" placeholder="Wpisz do czego mają być usunięte dane..."> <br>
+            <button id="inpUsuń" type="button">Usuń dane</button>
+
+            <div id="info">
+                <h3>Jak usunąć</h3>
+                <p>Żeby usunąć wpis w Local Storage trzeba wpisać w pole tak samo nazwę platformy do której jest zapisany login i hasło. Znaki oraz wielkość liter muszą się zgadzać.</p>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Local Storage</legend>
+            <div id="lsOutput"></div>
+
+        </fieldset>
+
+        <script src="script.js"></script>
+    </main>
+    
+</body>
+</html>
