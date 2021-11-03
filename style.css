@@ -10,13 +10,11 @@ h1{
     text-align: center;
     height: 100px;
     width: 100%;
-    float: left;
 }
 main{
     color: whitesmoke;
     width: 100%;
     height: auto;
-    clear: both;
     font-size: large;
 }
 fieldset{
