@@ -4,6 +4,8 @@ body{
 }
 h1{
     color: whitesmoke;
+    margin: 10px;
+    padding-top: 20px;
 }
 #head{
     background-color: rgb(94, 94, 94);
